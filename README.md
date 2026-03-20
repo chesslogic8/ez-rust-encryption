@@ -5,8 +5,7 @@
 # EZ-RUST-ENCRYPTION-APPS
 
 
-Commands? Flags? Options? Key file? Password? NO WAY BRO LETS GET RID OF ALL THAT !!  ONE command for each app. Just the file name then it encrypts or decrypts ! No password or key needed, key is hard coded for each app! Want to use a password or key file instead of a hard coded key? No prob just feed the app to ai and ask it to change anything. 
-
+Commands? Flags? Options? Key file? Password? NO WAY BRO LETS GET RID OF ALL THAT !!  ONE command for each app. Just the file name then it encrypts or decrypts ! No password or key needed, key is hard coded for each app! 
 
 
 
