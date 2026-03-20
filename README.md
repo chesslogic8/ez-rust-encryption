@@ -107,6 +107,11 @@ rxor is a small Rust command-line tool that encrypts and decrypts files using a 
 
 
 
+### idea
+
+**IDEA block cipher** (International Data Encryption Algorithm).
+Classic 64-bit block cipher with 128-bit keys using the unique Lai-Massey scheme (modular multiplication + addition + XOR). Used in early PGP/OpenPGP. Totally different math from everything else in the repo.
+
 
 
 
