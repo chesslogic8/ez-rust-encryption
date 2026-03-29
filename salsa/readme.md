@@ -1,6 +1,4 @@
-**Here’s the perfect `salsa/README.md`** — drop this file directly into your `salsa/` folder.
 
-It follows the exact same style and structure as the `cam/README.md` I gave you earlier, and I’ve clearly explained that this version **does not overwrite** existing files (exactly as you are keeping it).
 
 
 # salsa
