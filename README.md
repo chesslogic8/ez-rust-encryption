@@ -106,7 +106,9 @@ Basic XOR cipher (many stronger variants exist, such as rolling XOR or XOR + rot
 Extended-nonce version of Salsa20 using a 192-bit nonce for safer random nonce usage.
 
 
-Just paste the block above into your root `README.md` (replacing the old `# Algorithms` section) and you’re done.
+### [rc6](rc6)
+**RC6-256-CTR encryption tool.**.  
+
 
 
 
