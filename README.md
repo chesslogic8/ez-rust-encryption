@@ -124,7 +124,7 @@ Classic 64-bit block cipher with 128-bit keys using the unique Lai-Massey scheme
 
 # files made with chatgpt and grok with the  following prompt 
 
-
+Rust Version 1.94.1 + and 2024 edition +
 Create a small Linux command-line encryption tool written in Rust. The program should be simple, reliable, and deterministic. Each tool implements one cipher but all tools must behave the same way and follow the same file format and interface. The application should use a hard-coded key, accept a single file argument, encrypt files to the .ai extension, and decrypt .ai files back to the original file type. The original extension must be stored in metadata so the correct filename can be restored during decryption.
 
 The program must accept exactly one command argument: the name of the file to process. The usage format should look like ./toolname filename. For example: ./aes document.txt or ./aes document.ai. The program must not accept multiple arguments or interactive input. If no argument is given, it should return a usage error such as usage: aes <file>.
