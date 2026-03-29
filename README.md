@@ -25,99 +25,88 @@ interface.
 
 # Algorithms
 
-### aes
 
-**AES block cipher** (Advanced Encryption Standard).
+# Algorithms
+
+### [aes](aes)
+**AES block cipher** (Advanced Encryption Standard).  
 A NIST standardized symmetric cipher widely used for secure data encryption.
 
-### ascon
+### [ascon](ascon)
+**ASCON AEAD cipher**.  
+Winner of the NIST Lightweight Cryptography competition, designed for constrained systems.
 
-**ASCON AEAD cipher**.
-Winner of the NIST Lightweight Cryptography competition designed for constrained systems.
-
-### blake3
-
+### [blake3](blake3)
 **BLAKE3 cryptographic hash function** used as a fast modern hashing primitive.
 
-### blowctr
-
-**Blowfish block cipher in CTR mode**.
+### [blowctr](blowctr)
+**Blowfish block cipher in CTR mode**.  
 A classic symmetric cipher designed by Bruce Schneier.
 
-### cha
+### [cam](cam)
+**Camellia-256-CTR block cipher**.  
+NIST-approved alternative to AES with a completely different design and 20+ years with no practical attacks.
 
-**ChaCha20 stream cipher**.
+### [cha](cha)
+**ChaCha20 stream cipher**.  
 A modern high-performance cipher used in TLS and many modern protocols.
 
-### hc
-
-**HC-128 stream cipher** from the eSTREAM project.
+### [hc](hc)
+**HC-128 stream cipher** from the eSTREAM project.  
 Designed for high speed in software.
 
-### isaac
+### [hc256](hc256)
+**HC-256 stream cipher**.  
+Direct successor to HC-128 (same eSTREAM family) with an even higher security margin.
 
+### [idea](idea)
+**IDEA block cipher** (International Data Encryption Algorithm).  
+Classic 64-bit block cipher with 128-bit keys using the unique Lai-Massey scheme. Used in early PGP/OpenPGP.
+
+### [isaac](isaac)
 **ISAAC cryptographic pseudorandom generator** used as a keystream generator.
 
-### rabbit
-
-**Rabbit stream cipher** (eSTREAM portfolio).
+### [rabbit](rabbit)
+**Rabbit stream cipher** (eSTREAM portfolio).  
 Optimized for high-speed software encryption.
 
-### ser
+### [rxor](rxor)
+**rxor XOR + rotate cipher**.  
+Fast, lightweight, dependency-free rolling XOR + rotation cipher.
 
-**Serpent block cipher**.
-AES finalist designed for strong security margins.
+### [salsa](salsa)
+**Salsa20 stream cipher**.  
+Original eSTREAM winner and predecessor to ChaCha20 — extremely fast and still unbroken.
 
-### tf
+### [ser](ser)
+**Serpent block cipher**.  
+AES finalist designed for very strong security margins.
 
-**Twofish block cipher**.
+### [tf](tf)
+**Twofish block cipher**.  
 Another AES finalist designed by Bruce Schneier and colleagues.
 
-### trivium
-
-**Trivium stream cipher** from the eSTREAM project.
+### [trivium](trivium)
+**Trivium stream cipher** from the eSTREAM project.  
 Designed for extremely efficient hardware implementation.
 
-### xcha 
+### [xcha](xcha)
+**XChaCha20 stream cipher**.  
+Extended-nonce version of ChaCha20 allowing a very large nonce space.
 
-** upgraded **
+### [xor](xor)
+**Plain XOR**.  
+Basic XOR cipher (many stronger variants exist, such as rolling XOR or XOR + rotate).
 
-**XChaCha20 stream cipher**.
-Extended-nonce version of ChaCha20 allowing very large nonce space.
+### [xorp](xorp)
+**Rolling XOR + rotation cipher** (pure Rust, no crates).
 
-### xsalsa
-
-**XSalsa20 stream cipher**.
-Extended-nonce version of Salsa20 using a 192-bit nonce for safer random nonce usage. 
-
-
-
-### xor
-
-**plain xor**.
-there are lots of variants to reg xor, like rolling XOR cipher. or xor + rotate that are much stronger. 
-
-### rxor
-**rxor XOR + rotate cipher**
-
-rxor is a small Rust command-line tool that encrypts and decrypts files using a rolling XOR + rotate cipher. It is designed to be fast, lightweight, dependency-free, and simple to use.
-
-### xorp (pure rust no crates) 
-**rolling XOR + rotation cipher**.
+### [xsalsa](xsalsa)
+**XSalsa20 stream cipher**.  
+Extended-nonce version of Salsa20 using a 192-bit nonce for safer random nonce usage.
 
 
-
-### idea
-
-**IDEA block cipher** (International Data Encryption Algorithm).
-Classic 64-bit block cipher with 128-bit keys using the unique Lai-Massey scheme (modular multiplication + addition + XOR). Used in early PGP/OpenPGP. Totally different math from everything else in the repo.
-
-
-
-### cam
-
-**Camellia-256-CTR encryption tool.** 
-
+Just paste the block above into your root `README.md` (replacing the old `# Algorithms` section) and you’re done.
 
 
 
