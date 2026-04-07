@@ -5,7 +5,7 @@
 # EZ-RUST-ENCRYPTION-APPS 🦀
 
 
-Do you think that more than one cli command is just stupid? Do you think flags should not exist? How about thinking options are stupid? Did you ever want to eliminate the need for a Key file or even a Password? Well hell's bells, this repo is for you. Here, we do stuff the ez way!  ONE command for each app. Just the file name then it auto encrypts or decrypts ! No password or key needed, key is hard coded for each app! 
+Do you dislike complicated apps? Do you think that more than one cli command is just stupid? Do you think flags should not exist? How about thinking options are stupid? Did you ever want to eliminate the need for a Key file or even a Password? Did you ever wish the dam app just worked and was easy to use? Well hell's bells, this repo is for you. Here, we do stuff the ez way!  ONE command for each app. Just the file name then it auto encrypts or decrypts ! No password or key needed, key is hard coded for each app! 
 
 
 
