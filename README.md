@@ -121,7 +121,7 @@ AES finalist (same competition as Serpent and Twofish) with excellent security m
 Rust Version 1.94.1 + and 2024 edition +
 Create a small Linux command-line encryption tool written in Rust. The program should be simple, reliable, and deterministic. Each tool implements one cipher but all tools must behave the same way and follow the same file format and interface. The application should use a hard-coded key, accept a single file argument, encrypt files to the .ai extension, and decrypt .ai files back to the original file type. The original extension must be stored in metadata so the correct filename can be restored during decryption.
 
-The program must accept exactly one command argument: the name of the file to process. The usage format should look like ./toolname filename. For example: ./aes document.txt or ./aes document.ai. The program must not accept multiple arguments or interactive input. If no argument is given, it should return a usage error such as usage: aes <file>.
+The program must accept exactly one command argument: the name of the file to process. The usage format should look like ./toolname filename. For example: ./aes document.txt or ./aes document.ai. The program must not accept multiple arguments or interactive input. If no argument is given, it should return a usage error such as usage: aes < file>.
 
 The program should only operate on files located in the same directory as the executable. Paths containing directories such as /, ../, or nested folders must be rejected. This prevents the program from modifying files outside the working directory and keeps the behavior predictable. The argument should therefore be treated as a simple filename, not a path.
 
